@@ -28,7 +28,7 @@ border / box shadows
         background-color: #2b3844;
         color: white;
     }
-    .mode-switch svg path {
+    .mode-switch svg path, .search-bar svg path {
         fill: white;
     }
     .dropdown select {
