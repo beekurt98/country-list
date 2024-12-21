@@ -1,0 +1,81 @@
+/* TO-DO
+border / box shadows
+*/
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background: #fafafa;
+    font-family: 'Nunito Sans';
+}
+
+.content-container {
+    width: 1500px;
+    margin: auto;
+}
+
+/* HEADER */
+.header {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 30px;
+}
+
+/* SEARCH PART */
+.search-cont {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+}
+
+.search-bar {
+    background-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+.search-bar img {
+    width: 20px;
+}
+
+input {
+    border: solid white;
+}
+
+/* COUNTRY CONTAINER */
+.country-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 65px;
+    /* display:grid;
+    grid-template-columns: repeat(auto-fill, 260px);
+    gap: 65px; */
+}
+
+.country-card {
+    background: white;
+    border-radius: 5px;
+}
+
+.countryName {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.info {
+    font-size: 14px;
+}
+
+.country-card img {
+    width: 260px;
+    height:160px;
+    border-radius: 5px 5px 0 0;
+}
+
