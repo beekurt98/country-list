@@ -82,6 +82,8 @@ function CountryContainer() {
   )
 }
 
+function CountryCard({ name, population, region, capital, flagUrl, flagAlt }) {
+  
   return(
     <>
       <div className="flag-div"><img src={flagUrl} alt={flagAlt} /></div>
